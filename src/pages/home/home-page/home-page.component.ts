@@ -10,18 +10,6 @@ export class HomePageComponent implements OnInit {
 
   constructor(meta: Meta, title: Title) {
     title.setTitle('My Home Page');
-
-    meta.addTags([ 
-      {
-        name: 'author', content: 'anasit.com'
-      },
-      {
-        name: 'keywords', content: 'angular 4 tutorial, angular seo'
-      },
-      {
-        name: 'description', content: 'This is my great description.'
-      },
-    ])
   }
 
   ngOnInit() {

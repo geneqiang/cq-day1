@@ -2,10 +2,12 @@
 
 本项目通过最新版 [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1 创建。
 
-项目目标
-- 提供**LazyLoad**机制，匹配最新版本Angular的初始化项目包
-- 提供**SSR服务端渲染**、SPA静态打包两种运行模式
-- **提高首页加载效率**，将模块分组打包
+【项目简介】
+- 本项目是某培训学校的内部管理系统
+- 今天完成的是课程打卡页面
+
+【作者信息】
+- 常强 chang gene qiang
 
 SSR模式注意
 - 不可以使用直接操作DOM的第三方组件

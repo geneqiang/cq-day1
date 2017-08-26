@@ -7,8 +7,8 @@ const SSRroutes: Routes = [
     path: '',
     children: []
   },
-  { path: 'home', loadChildren: '../pages/home/home.module#HomeModule' },
-  { path: 'about', loadChildren: '../pages/about/about.module#AboutModule' },
+  { path: 'stadyPlan', loadChildren: '../pages/home/home.module#HomeModule' },
+  { path: 'courseRecord', loadChildren: '../pages/about/about.module#AboutModule' },
   { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
